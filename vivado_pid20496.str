@@ -557,3 +557,196 @@ dismissDialog("Launch Runs"); // f (cs)
 // Tcl Message: [Fri Nov 13 09:12:54 2026] Launched synth_1... Run output will be captured here: C:/Users/ta10580/Downloads/CA-Labs/CA-Labs/LAB11/lab11.runs/synth_1/runme.log 
 dismissDialog("Starting Design Runs"); // bz (cs)
 // TclEventType: RUN_STATUS_CHANGE
+// Elapsed time: 36 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, topProcessor (TopProcessor.v)]", 1, true); // B (F, cs) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, topProcessor (TopProcessor.v), alu_inst : ALU (ALU.v)]", 2, false, false, false, false, false, true); // B (F, cs) - Double Click
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_STEP_COMPLETED
+// ag (cs): Synthesis Completed: addNotify
+selectRadioButton(PAResourceCommand.PACommandNames_GOTO_NETLIST_DESIGN, "Open Synthesized Design"); // a (Q, ag)
+selectRadioButton(PAResourceCommand.PACommandNames_REPORTS_WINDOW, "View Reports"); // a (Q, ag)
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (ag)
+// Run Command: PAResourceCommand.PACommandNames_REPORTS_WINDOW
+dismissDialog("Synthesis Completed"); // ag (cs)
+selectTreeTable(PAResourceEtoH.ExpReportTreePanel_EXP_REPORT_TREE_TABLE, "synth_1_synth_report_utilization_0 ; report_utilization ;  ; Fri Nov 13 09:13:34 PKT 2026 ; 6739", 2, (String) null, 2, false); // O (J, cs)
+selectTreeTable(PAResourceEtoH.ExpReportTreePanel_EXP_REPORT_TREE_TABLE, "synth_1_synth_report_utilization_0 ; report_utilization ;  ; Fri Nov 13 09:13:34 PKT 2026 ; 6739", 2, "synth_1_synth_report_utilization_0", 0, false); // O (J, cs)
+expandTreeTable(PAResourceEtoH.ExpReportTreePanel_EXP_REPORT_TREE_TABLE, "synth_1_synth_report_utilization_0 ; report_utilization ;  ; Fri Nov 13 09:13:34 PKT 2026 ; 6739", 2); // O (J, cs)
+selectTreeTable(PAResourceEtoH.ExpReportTreePanel_EXP_REPORT_TREE_TABLE, "synth_1_synth_report_utilization_0 ; report_utilization ;  ; Fri Nov 13 09:13:34 PKT 2026 ; 6739", 2, "synth_1_synth_report_utilization_0", 0, false, false, false, false, false, true); // O (J, cs) - Double Click
+selectCodeEditor("synth_1_synth_report_utilization_0 - synth_1", 144, 331); // G (w, cs)
+// Elapsed time: 37 seconds
+selectCodeEditor("synth_1_synth_report_utilization_0 - synth_1", 2, 196); // G (w, cs)
+typeControlKey((HResource) null, "synth_1_synth_report_utilization_0 - synth_1", 'c'); // G (w, cs)
+// Elapsed time: 25 seconds
+collapseTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Synthesis, Open Synthesized Design]", 19); // u (J, cs)
+expandTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Synthesis, Open Synthesized Design]", 19); // u (J, cs)
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Synthesis, Open Synthesized Design, Schematic]", 31, false); // u (J, cs)
+// bz (cs):  Open Synthesized Design : addNotify
+// TclEventType: READ_XDC_FILE_START
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// Tcl Message: open_run synth_1 -name synth_1 
+// Tcl Message: Design is defaulting to impl run constrset: constrs_1 Design is defaulting to synth run part: xc7a35tcpg236-1 
+// TclEventType: POWER_CNS_STALE
+// TclEventType: POWER_REPORT_STALE
+// TclEventType: SDC_CONSTRAINT_ADD
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: PLACEDB_MODIFIY_PRE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: PLACEDB_MODIFIY_PRE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: PLACEDB_MODIFIY_PRE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: PLACEDB_MODIFIY_PRE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: PLACEDB_MODIFIY_PRE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: PLACEDB_MODIFIY_PRE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: PLACEDB_MODIFIY_PRE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: PLACEDB_MODIFIY_PRE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: PLACEDB_MODIFIY_PRE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: PLACEDB_MODIFIY_PRE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: PLACEDB_MODIFIY_PRE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: PLACEDB_MODIFIY_PRE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: PLACEDB_MODIFIY_PRE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: PLACEDB_MODIFIY_PRE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: PLACEDB_MODIFIY_PRE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: PLACEDB_MODIFIY_PRE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: READ_XDC_FILE_END
+// TclEventType: FLOORPLAN_MODIFY
+// TclEventType: DESIGN_NEW
+// HMemoryUtils.trashcanNow. Engine heap size: 1,709 MB. GUI used memory: 113 MB. Current time: 11/13/26, 9:15:05 AM PKT
+// TclEventType: DESIGN_NEW
+// TclEventType: HFED_INIT_ROUTE_STORAGE_COMPLETED
+// [Engine Memory]: 1,780 MB (+1559kb) [00:40:41]
+// [Engine Memory]: 1,871 MB (+1323kb) [00:40:42]
+// Device: addNotify
+// DeviceView Instantiated
+// [Engine Memory]: 1,991 MB (+27878kb) [00:40:42]
+// WARNING: HEventQueue.dispatchEvent() is taking  2294 ms.
+// TclEventType: CURR_DESIGN_SET
+// Tcl Message: Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1809.012 ; gain = 0.000 
+// Tcl Message: INFO: [Project 1-479] Netlist was created with Vivado 2020.1 INFO: [Project 1-570] Preparing netlist for logic optimization 
+// Tcl Message: Parsing XDC File [C:/Users/ta10580/Downloads/CA-Labs/CA-Labs/LAB11/lab11.srcs/constrs_1/new/const.xdc] 
+// Tcl Message: Finished Parsing XDC File [C:/Users/ta10580/Downloads/CA-Labs/CA-Labs/LAB11/lab11.srcs/constrs_1/new/const.xdc] 
+// Tcl Message: INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s). 
+// Tcl Message: Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1816.547 ; gain = 0.000 
+// Tcl Message: INFO: [Project 1-111] Unisim Transformation Summary: No Unisim elements were transformed.  
+// Device view-level: 0.0
+// [GUI Memory]: 179 MB (+1517kb) [00:40:43]
+// Run Command: PAResourceCommand.PACommandNames_SCHEMATIC
+// Schematic: addNotify
+// [Engine Memory]: 2,094 MB (+4351kb) [00:40:43]
+// V (cs): Critical Messages: addNotify
+dismissDialog("Open Synthesized Design"); // bz (cs)
+selectButton(PAResourceAtoD.CmdMsgDialog_OK, "OK"); // f (V)
+dismissDialog("Critical Messages"); // V (cs)
+// [Engine Memory]: 2,252 MB (+55119kb) [00:40:47]
+// [Engine Memory]: 2,433 MB (+71464kb) [00:40:48]
+// RouteApi::initDelayMediator elapsed time: 5.3s
+// RouteApi: Init Delay Mediator Swing Worker Finished
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Synthesis, Open Synthesized Design, Report Timing Summary]", 23, false); // u (J, cs)
+// Run Command: PAResourceCommand.PACommandNames_REPORT_TIMING_SUMMARY
+// aJ (cs): Report Timing Summary: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (aJ)
+// 'r' command handler elapsed time: 3 seconds
+dismissDialog("Report Timing Summary"); // aJ (cs)
+// TclEventType: TIMING_RESULTS_STALE
+// TclEventType: TIMING_SUMMARY_UPDATED
+// [Engine Memory]: 2,572 MB (+18909kb) [00:40:52]
+// Tcl Message: report_timing_summary -delay_type min_max -report_unconstrained -check_timing_verbose -max_paths 10 -input_pins -routable_nets -name timing_1 
+// Tcl Message: INFO: [Timing 38-35] Done setting XDC timing constraints. INFO: [Timing 38-91] UpdateTimingParams: Speed grade: -1, Delay Type: min_max. INFO: [Timing 38-191] Multithreading enabled for timing update using a maximum of 2 CPUs 
+selectTree(PAResourceItoN.NavigableTimingReportTab_TIMING_REPORT_NAVIGATION_TREE, "[Root, Clock Summary]", 3, false); // a (J, cs)
+selectTree(PAResourceItoN.NavigableTimingReportTab_TIMING_REPORT_NAVIGATION_TREE, "[Root, Design Timing Summary]", 2, false); // a (J, cs)
+// [GUI Memory]: 190 MB (+1757kb) [00:41:07]
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Synthesis, Open Synthesized Design, Report Utilization]", 29, false); // u (J, cs)
+// Run Command: PAResourceCommand.PACommandNames_RESOURCE_UTILIZATION
+// a (cs): Report Utilization: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (a)
+// TclEventType: UTILIZATION_RESULT_GENERATED
+dismissDialog("Report Utilization"); // a (cs)
+// HMemoryUtils.trashcanNow. Engine heap size: 2,577 MB. GUI used memory: 137 MB. Current time: 11/13/26, 9:15:37 AM PKT
+// Tcl Message: report_utilization -name utilization_1 
+// bz (cs):  Report Utilization : addNotify
+dismissDialog("Report Utilization"); // bz (cs)
+selectTree(PAResourceQtoS.ReportUtilTab_REPORT_UTILIZATION_NAVIGATION_TREE, "[Report Contents, Primitives]", 12, false); // l (J, cs)
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Synthesis, Open Synthesized Design, Report Timing Summary]", 23, false); // u (J, cs)
+// Run Command: PAResourceCommand.PACommandNames_REPORT_TIMING_SUMMARY
+// aJ (cs): Report Timing Summary: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (aJ)
+dismissDialog("Report Timing Summary"); // aJ (cs)
+// TclEventType: TIMING_SUMMARY_UPDATED
+// Tcl Message: report_timing_summary -delay_type min_max -report_unconstrained -check_timing_verbose -max_paths 10 -input_pins -routable_nets -name timing_2 
+// Tcl Message: INFO: [Timing 38-91] UpdateTimingParams: Speed grade: -1, Delay Type: min_max. INFO: [Timing 38-191] Multithreading enabled for timing update using a maximum of 2 CPUs 
+selectTree(PAResourceItoN.NavigableTimingReportTab_TIMING_REPORT_NAVIGATION_TREE, "[Root, Timer Settings]", 1, false); // a (J, cs)
+// Elapsed time: 55 seconds
+selectTree(PAResourceItoN.NavigableTimingReportTab_TIMING_REPORT_NAVIGATION_TREE, "[Root, Design Timing Summary]", 2, false); // a (J, cs)
+selectTree(PAResourceItoN.NavigableTimingReportTab_TIMING_REPORT_NAVIGATION_TREE, "[Root, Design Timing Summary]", 2, false, false, false, false, false, true); // a (J, cs) - Double Click
+// Elapsed time: 58 seconds
+selectTab((HResource) null, (HResource) null, "Sources", 0); // aL (aI, cs)
+// Elapsed time: 19 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, topProcessor (TopProcessor.v), pc_inst : PC (PC.v)]", 9, false); // B (F, cs)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, topProcessor (TopProcessor.v), pc_inst : PC (PC.v)]", 9, false, false, false, false, false, true); // B (F, cs) - Double Click
+// Elapsed time: 10 seconds
+selectCodeEditor("PC.v", 0, 193); // bP (w, cs)
+typeControlKey((HResource) null, "PC.v", 'c'); // bP (w, cs)
+// Elapsed time: 19 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, topProcessor (TopProcessor.v), pc_adder_inst : PCAdder (PCAdder.v)]", 10, false); // B (F, cs)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, topProcessor (TopProcessor.v), pc_adder_inst : PCAdder (PCAdder.v)]", 10, false, false, false, false, false, true); // B (F, cs) - Double Click
+selectCodeEditor("PCAdder.v", 0, 348); // bP (w, cs)
+typeControlKey((HResource) null, "PCAdder.v", 'c'); // bP (w, cs)
+// Elapsed time: 13 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, topProcessor (TopProcessor.v), branch_add_inst : BranchAdd (BranchAdd.v)]", 11, false); // B (F, cs)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, topProcessor (TopProcessor.v), branch_add_inst : BranchAdd (BranchAdd.v)]", 11, false, false, false, false, false, true); // B (F, cs) - Double Click
+selectCodeEditor("BranchAdd.v", 2, 335); // bP (w, cs)
+typeControlKey((HResource) null, "BranchAdd.v", 'c'); // bP (w, cs)
+// [GUI Memory]: 199 MB (+15kb) [00:44:58]
+// Elapsed time: 45 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, topProcessor (TopProcessor.v), branch_mux_inst : MUX (2_MUX.v)]", 12, false); // B (F, cs)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, topProcessor (TopProcessor.v), branch_mux_inst : MUX (2_MUX.v)]", 12, false, false, false, false, false, true); // B (F, cs) - Double Click
+selectCodeEditor("2_MUX.v", 2, 315); // bP (w, cs)
+typeControlKey((HResource) null, "2_MUX.v", 'c'); // bP (w, cs)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, topProcessor (TopProcessor.v), imm_gen_inst : immGen (immGen.v)]", 14, false); // B (F, cs)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, topProcessor (TopProcessor.v), imm_gen_inst : immGen (immGen.v)]", 14, false, false, false, false, false, true); // B (F, cs) - Double Click
+selectCodeEditor("immGen.v", 0, 96); // bP (w, cs)
+typeControlKey((HResource) null, "immGen.v", 'c'); // bP (w, cs)
+// Elapsed time: 37 seconds
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources]", 17); // B (F, cs)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1]", 18, true); // B (F, cs) - Node
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1]", 18); // B (F, cs)
+// Elapsed time: 10 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1, tb_TopLevelProcessor (toptb.v)]", 19, true); // B (F, cs) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1, tb_TopLevelProcessor (toptb.v)]", 19, true, false, false, false, false, true); // B (F, cs) - Double Click - Node
+selectCodeEditor("toptb.v", 1, 382); // bP (w, cs)
+// Elapsed time: 59 seconds
+typeControlKey((HResource) null, "toptb.v", 'c'); // bP (w, cs)
+// Elapsed time: 76 seconds
+selectCodeEditor("toptb.v", 125, 201); // bP (w, cs)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1, pc_tb (pc_tb.v)]", 21, true); // B (F, cs) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1, pc_tb (pc_tb.v), u_immGen : immGen (immGen.v)]", 24, false, false, false, false, false, true); // B (F, cs) - Double Click
+// Elapsed time: 17 seconds
+selectCodeEditor("pc_tb.v", 1, 230); // bP (w, cs)
+typeControlKey((HResource) null, "pc_tb.v", 'c'); // bP (w, cs)
+// Elapsed time: 37 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1, tb_TopLevelProcessor (toptb.v)]", 19, true); // B (F, cs) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1, tb_TopLevelProcessor (toptb.v)]", 19, true, false, false, false, false, true); // B (F, cs) - Double Click - Node
+selectCodeEditor("toptb.v", 0, 175); // bP (w, cs)
+typeControlKey((HResource) null, "toptb.v", 'c'); // bP (w, cs)
+// Elapsed time: 42 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, topProcessor (TopProcessor.v)]", 1, true); // B (F, cs) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, topProcessor (TopProcessor.v)]", 1, true, false, false, false, false, true); // B (F, cs) - Double Click - Node
+selectCodeEditor("TopProcessor.v", 1, 179); // bP (w, cs)
+typeControlKey((HResource) null, "TopProcessor.v", 'c'); // bP (w, cs)

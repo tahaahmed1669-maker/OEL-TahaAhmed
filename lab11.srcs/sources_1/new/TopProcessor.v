@@ -62,15 +62,16 @@ Register reg_file_inst (
     .ReadData2(readData2)
 );
 
-DataMemory data_mem_inst (
+AddressDecoder address_decoder_inst (
     .clk(clk),
-    .MemWrite(MemWrite),
-    .MemRead(MemRead),
-    .address(ALUResult[8:0]),
-    .write_data(readData2),
-    .read_data(mem_readData),
-    .switches(switches),
-    .LEDs_out(LEDs)
+    .rst(rst),
+    .address(ALUResult),
+    .readEnable(MemRead),
+    .writeEnable(MemWrite),
+    .writeData(readData2),
+    .switches_in(switches),
+    .readData(mem_readData),
+    .leds_out(LEDs)
 );
 
 MainControl main_ctrl_inst (

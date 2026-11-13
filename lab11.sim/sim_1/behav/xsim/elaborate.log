@@ -22,3 +22,4 @@ Compiling module xil_defaultlib.immGen
 Compiling module xil_defaultlib.topProcessor
 Compiling module xil_defaultlib.tb_TopLevelProcessor
 Compiling module xil_defaultlib.glbl
+Built simulation snapshot tb_TopLevelProcessor_behav

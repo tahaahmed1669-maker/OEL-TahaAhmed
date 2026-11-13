@@ -20,43 +20,35 @@
 //////////////////////////////////////////////////////////////////////////////////
 
 module DataMemory(
-    input  wire        clk,
-    input  wire        MemWrite,
-    input  wire        MemRead,
-    input  wire [8:0]  address,   
-    input  wire [31:0] write_data,
-    output reg  [31:0] read_data,
-    output wire [15:0] LEDs_out,
-    input  wire [15:0] switches
-);
+    input clk,
+    input rst,
+    input MemWrite,
+    input MemRead,
+    input [8:0] address,
+    input [31:0] write_data,
+    output [31:0] read_data
+    );
 
-    reg [31:0] memory [0:511];
-    
-    assign LEDs_out = memory[8][15:0];
+    reg [31:0] mem [0:511];
 
 // Initialize memory array to 0 to prevent 'X' values
     integer i;
     initial begin
         for (i = 0; i <= 511; i = i + 1) begin
-            memory[i] = 32'd0;
+            mem[i] = 32'd0;
         end
     end
     //  Write
-    always @(posedge clk) begin
+    always @(posedge clk or posedge rst) begin
+        // rst
+        if (rst) begin
+            for (i = 0; i < 512; i = i + 1)
+                mem[i] <= 32'b0;
+        end
         if (MemWrite)
-            memory[address] <= write_data;
+            mem[address] <= write_data;
     end
 
-    //  Read
-    always @(*) begin
-        if (MemRead) begin
-            if (address == 9'd4) 
-                read_data = {16'd0, switches}; 
-            else
-                read_data = memory[address];
-        end else begin
-            read_data = 32'd0;
-        end
-    end
+    assign read_data = (MemRead) ? mem[address] : 32'b0;
 
 endmodule
