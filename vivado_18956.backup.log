@@ -1,0 +1,471 @@
+#-----------------------------------------------------------
+# Vivado v2020.1 (64-bit)
+# SW Build 2902540 on Wed May 27 19:54:49 MDT 2020
+# IP Build 2902112 on Wed May 27 22:43:36 MDT 2020
+# Start of session at: Fri Oct 30 09:07:37 2026
+# Process ID: 18956
+# Current directory: C:/Users/ta10580/Downloads/CA-Labs/CA-Labs/LAB11
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent20696 C:\Users\ta10580\Downloads\CA-Labs\CA-Labs\LAB11\lab11.xpr
+# Log file: C:/Users/ta10580/Downloads/CA-Labs/CA-Labs/LAB11/vivado.log
+# Journal file: C:/Users/ta10580/Downloads/CA-Labs/CA-Labs/LAB11\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/ta10580/Downloads/CA-Labs/CA-Labs/LAB11/lab11.xpr
+INFO: [Project 1-313] Project file moved from 'C:/Users/ha10609/Downloads/CA-Labs-T1/LAB11' since last save.
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2020.1/data/ip'.
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+set_property top pc_tb [get_filesets sim_1]
+set_property top_lib xil_defaultlib [get_filesets sim_1]
+update_compile_order -fileset sim_1
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/ta10580/Downloads/CA-Labs/CA-Labs/LAB11/lab11.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'pc_tb' in fileset 'sim_1'...
+INFO: [SIM-utils-43] Exported 'C:/Users/ta10580/Downloads/CA-Labs/CA-Labs/LAB11/lab11.sim/sim_1/behav/xsim/instructions.mem'
+INFO: [SIM-utils-43] Exported 'C:/Users/ta10580/Downloads/CA-Labs/CA-Labs/LAB11/lab11.sim/sim_1/behav/xsim/instructions.mem'
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/ta10580/Downloads/CA-Labs/CA-Labs/LAB11/lab11.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj pc_tb_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/ta10580/Downloads/CA-Labs/CA-Labs/LAB11/lab11.srcs/sources_1/new/BranchAdd.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module BranchAdd
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/ta10580/Downloads/CA-Labs/CA-Labs/LAB11/lab11.srcs/sources_1/new/PC.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module PC
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/ta10580/Downloads/CA-Labs/CA-Labs/LAB11/lab11.srcs/sources_1/new/PCAdder.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module PCAdder
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/ta10580/Downloads/CA-Labs/CA-Labs/LAB11/lab11.srcs/sources_1/new/immGen.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module immGen
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/ta10580/Downloads/CA-Labs/CA-Labs/LAB11/lab11.srcs/sim_1/new/pc_tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module pc_tb
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/ta10580/Downloads/CA-Labs/CA-Labs/LAB11/lab11.sim/sim_1/behav/xsim/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl
+INFO: [USF-XSim-69] 'compile' step finished in '2' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/ta10580/Downloads/CA-Labs/CA-Labs/LAB11/lab11.sim/sim_1/behav/xsim'
+"xelab -wto f8d01134f7dc4a89acf0d8e4e2a22205 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot pc_tb_behav xil_defaultlib.pc_tb xil_defaultlib.glbl -log elaborate.log"
+Vivado Simulator 2020.1
+Copyright 1986-1999, 2001-2020 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2020.1/bin/unwrapped/win64.o/xelab.exe -wto f8d01134f7dc4a89acf0d8e4e2a22205 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot pc_tb_behav xil_defaultlib.pc_tb xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.PC
+Compiling module xil_defaultlib.PCAdder
+Compiling module xil_defaultlib.immGen
+Compiling module xil_defaultlib.BranchAdd
+Compiling module xil_defaultlib.branch_MUX
+Compiling module xil_defaultlib.pc_tb
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot pc_tb_behav
+
+****** Webtalk v2020.1 (64-bit)
+  **** SW Build 2902540 on Wed May 27 19:54:49 MDT 2020
+  **** IP Build 2902112 on Wed May 27 22:43:36 MDT 2020
+    ** Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
+
+source C:/Users/ta10580/Downloads/CA-Labs/CA-Labs/LAB11/lab11.sim/sim_1/behav/xsim/xsim.dir/pc_tb_behav/webtalk/xsim_webtalk.tcl -notrace
+INFO: [Common 17-206] Exiting Webtalk at Fri Oct 30 09:35:09 2026...
+run_program: Time (s): cpu = 00:00:01 ; elapsed = 00:00:08 . Memory (MB): peak = 1025.070 ; gain = 0.000
+INFO: [USF-XSim-69] 'elaborate' step finished in '8' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/ta10580/Downloads/CA-Labs/CA-Labs/LAB11/lab11.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "pc_tb_behav -key {Behavioral:sim_1:Functional:pc_tb} -tclbatch {pc_tb.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2020.1
+Time resolution is 1 ps
+source pc_tb.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+$finish called at time : 60 ns : File "C:/Users/ta10580/Downloads/CA-Labs/CA-Labs/LAB11/lab11.srcs/sim_1/new/pc_tb.v" Line 71
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'pc_tb_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:07 ; elapsed = 00:00:15 . Memory (MB): peak = 1025.070 ; gain = 0.000
+set_property top tb_TopLevelProcessor [get_filesets sim_1]
+set_property top_lib xil_defaultlib [get_filesets sim_1]
+update_compile_order -fileset sim_1
+launch_simulation
+Command: launch_simulation 
+boost::filesystem::remove: The process cannot access the file because it is being used by another process: "C:/Users/ta10580/Downloads/CA-Labs/CA-Labs/LAB11/lab11.sim/sim_1/behav/xsim/simulate.log"
+launch_simulation
+Command: launch_simulation 
+boost::filesystem::remove: The process cannot access the file because it is being used by another process: "C:/Users/ta10580/Downloads/CA-Labs/CA-Labs/LAB11/lab11.sim/sim_1/behav/xsim/simulate.log"
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/ta10580/Downloads/CA-Labs/CA-Labs/LAB11/lab11.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'tb_TopLevelProcessor' in fileset 'sim_1'...
+INFO: [SIM-utils-43] Exported 'C:/Users/ta10580/Downloads/CA-Labs/CA-Labs/LAB11/lab11.sim/sim_1/behav/xsim/instructions.mem'
+INFO: [SIM-utils-43] Exported 'C:/Users/ta10580/Downloads/CA-Labs/CA-Labs/LAB11/lab11.sim/sim_1/behav/xsim/instructions.mem'
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/ta10580/Downloads/CA-Labs/CA-Labs/LAB11/lab11.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj tb_TopLevelProcessor_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/ta10580/Downloads/CA-Labs/CA-Labs/LAB11/lab11.srcs/sources_1/new/2_MUX.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module MUX
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/ta10580/Downloads/CA-Labs/CA-Labs/LAB11/lab11.srcs/sources_1/new/ALU.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ALU
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/ta10580/Downloads/CA-Labs/CA-Labs/LAB11/lab11.srcs/sources_1/new/ALUControl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ALUControl
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/ta10580/Downloads/CA-Labs/CA-Labs/LAB11/lab11.srcs/sources_1/new/DataMemory.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module DataMemory
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/ta10580/Downloads/CA-Labs/CA-Labs/LAB11/lab11.srcs/sources_1/new/InstructionMemory.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module instructionMemory
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/ta10580/Downloads/CA-Labs/CA-Labs/LAB11/lab11.srcs/sources_1/new/MainControl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module MainControl
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/ta10580/Downloads/CA-Labs/CA-Labs/LAB11/lab11.srcs/sources_1/new/Register.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Register
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/ta10580/Downloads/CA-Labs/CA-Labs/LAB11/lab11.srcs/sources_1/new/TopProcessor.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module topProcessor
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/ta10580/Downloads/CA-Labs/CA-Labs/LAB11/lab11.srcs/sim_1/new/toptb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module tb_TopLevelProcessor
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/ta10580/Downloads/CA-Labs/CA-Labs/LAB11/lab11.sim/sim_1/behav/xsim'
+"xelab -wto f8d01134f7dc4a89acf0d8e4e2a22205 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot tb_TopLevelProcessor_behav xil_defaultlib.tb_TopLevelProcessor xil_defaultlib.glbl -log elaborate.log"
+Vivado Simulator 2020.1
+Copyright 1986-1999, 2001-2020 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2020.1/bin/unwrapped/win64.o/xelab.exe -wto f8d01134f7dc4a89acf0d8e4e2a22205 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot tb_TopLevelProcessor_behav xil_defaultlib.tb_TopLevelProcessor xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.ALU
+Compiling module xil_defaultlib.Register
+Compiling module xil_defaultlib.DataMemory
+Compiling module xil_defaultlib.MainControl
+Compiling module xil_defaultlib.ALUControl
+Compiling module xil_defaultlib.instructionMemory
+Compiling module xil_defaultlib.MUX
+Compiling module xil_defaultlib.PC
+Compiling module xil_defaultlib.PCAdder
+Compiling module xil_defaultlib.BranchAdd
+Compiling module xil_defaultlib.immGen
+Compiling module xil_defaultlib.topProcessor
+Compiling module xil_defaultlib.tb_TopLevelProcessor
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot tb_TopLevelProcessor_behav
+
+****** Webtalk v2020.1 (64-bit)
+  **** SW Build 2902540 on Wed May 27 19:54:49 MDT 2020
+  **** IP Build 2902112 on Wed May 27 22:43:36 MDT 2020
+    ** Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
+
+source C:/Users/ta10580/Downloads/CA-Labs/CA-Labs/LAB11/lab11.sim/sim_1/behav/xsim/xsim.dir/tb_TopLevelProcessor_behav/webtalk/xsim_webtalk.tcl -notrace
+INFO: [Common 17-206] Exiting Webtalk at Fri Oct 30 09:48:43 2026...
+run_program: Time (s): cpu = 00:00:00 ; elapsed = 00:00:05 . Memory (MB): peak = 1025.070 ; gain = 0.000
+INFO: [USF-XSim-69] 'elaborate' step finished in '5' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/ta10580/Downloads/CA-Labs/CA-Labs/LAB11/lab11.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "tb_TopLevelProcessor_behav -key {Behavioral:sim_1:Functional:tb_TopLevelProcessor} -tclbatch {tb_TopLevelProcessor.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2020.1
+Time resolution is 1 ps
+source tb_TopLevelProcessor.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+$finish called at time : 100 ns : File "C:/Users/ta10580/Downloads/CA-Labs/CA-Labs/LAB11/lab11.srcs/sim_1/new/toptb.v" Line 52
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'tb_TopLevelProcessor_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:03 ; elapsed = 00:00:09 . Memory (MB): peak = 1025.070 ; gain = 0.000
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/ta10580/Downloads/CA-Labs/CA-Labs/LAB11/lab11.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'tb_TopLevelProcessor' in fileset 'sim_1'...
+INFO: [SIM-utils-43] Exported 'C:/Users/ta10580/Downloads/CA-Labs/CA-Labs/LAB11/lab11.sim/sim_1/behav/xsim/instructions.mem'
+INFO: [SIM-utils-43] Exported 'C:/Users/ta10580/Downloads/CA-Labs/CA-Labs/LAB11/lab11.sim/sim_1/behav/xsim/instructions.mem'
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/ta10580/Downloads/CA-Labs/CA-Labs/LAB11/lab11.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj tb_TopLevelProcessor_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/ta10580/Downloads/CA-Labs/CA-Labs/LAB11/lab11.srcs/sources_1/new/2_MUX.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module MUX
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/ta10580/Downloads/CA-Labs/CA-Labs/LAB11/lab11.srcs/sources_1/new/ALU.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ALU
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/ta10580/Downloads/CA-Labs/CA-Labs/LAB11/lab11.srcs/sources_1/new/ALUControl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ALUControl
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/ta10580/Downloads/CA-Labs/CA-Labs/LAB11/lab11.srcs/sources_1/new/BranchAdd.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module BranchAdd
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/ta10580/Downloads/CA-Labs/CA-Labs/LAB11/lab11.srcs/sources_1/new/DataMemory.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module DataMemory
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/ta10580/Downloads/CA-Labs/CA-Labs/LAB11/lab11.srcs/sources_1/new/InstructionMemory.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module instructionMemory
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/ta10580/Downloads/CA-Labs/CA-Labs/LAB11/lab11.srcs/sources_1/new/MainControl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module MainControl
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/ta10580/Downloads/CA-Labs/CA-Labs/LAB11/lab11.srcs/sources_1/new/PC.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module PC
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/ta10580/Downloads/CA-Labs/CA-Labs/LAB11/lab11.srcs/sources_1/new/PCAdder.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module PCAdder
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/ta10580/Downloads/CA-Labs/CA-Labs/LAB11/lab11.srcs/sources_1/new/Register.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Register
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/ta10580/Downloads/CA-Labs/CA-Labs/LAB11/lab11.srcs/sources_1/new/TopProcessor.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module topProcessor
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/ta10580/Downloads/CA-Labs/CA-Labs/LAB11/lab11.srcs/sources_1/new/immGen.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module immGen
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/ta10580/Downloads/CA-Labs/CA-Labs/LAB11/lab11.srcs/sim_1/new/toptb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module tb_TopLevelProcessor
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/ta10580/Downloads/CA-Labs/CA-Labs/LAB11/lab11.sim/sim_1/behav/xsim'
+"xelab -wto f8d01134f7dc4a89acf0d8e4e2a22205 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot tb_TopLevelProcessor_behav xil_defaultlib.tb_TopLevelProcessor xil_defaultlib.glbl -log elaborate.log"
+Vivado Simulator 2020.1
+Copyright 1986-1999, 2001-2020 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2020.1/bin/unwrapped/win64.o/xelab.exe -wto f8d01134f7dc4a89acf0d8e4e2a22205 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot tb_TopLevelProcessor_behav xil_defaultlib.tb_TopLevelProcessor xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.ALU
+Compiling module xil_defaultlib.Register
+Compiling module xil_defaultlib.DataMemory
+Compiling module xil_defaultlib.MainControl
+Compiling module xil_defaultlib.ALUControl
+Compiling module xil_defaultlib.instructionMemory
+Compiling module xil_defaultlib.MUX
+Compiling module xil_defaultlib.PC
+Compiling module xil_defaultlib.PCAdder
+Compiling module xil_defaultlib.BranchAdd
+Compiling module xil_defaultlib.immGen
+Compiling module xil_defaultlib.topProcessor
+Compiling module xil_defaultlib.tb_TopLevelProcessor
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot tb_TopLevelProcessor_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '2' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/ta10580/Downloads/CA-Labs/CA-Labs/LAB11/lab11.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "tb_TopLevelProcessor_behav -key {Behavioral:sim_1:Functional:tb_TopLevelProcessor} -tclbatch {tb_TopLevelProcessor.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2020.1
+Time resolution is 1 ps
+source tb_TopLevelProcessor.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+Time | PC | Instr | imm | rs1 | rs2 | ALU_B | ALURes | LEDs
+0 | 0 | 00700113 | 7 | 0 | 0 | 7 | 7 | 7
+15000 | 4 | 00500193 | 5 | 0 | 0 | 5 | 5 | 5
+25000 | 8 | 00310233 | 0 | 7 | 5 | 5 | 12 | 12
+35000 | 12 | 40310233 | 0 | 7 | 5 | 5 | 2 | 2
+45000 | 16 | 00317233 | 0 | 7 | 5 | 5 | 5 | 5
+55000 | 20 | 00316233 | 0 | 7 | 5 | 5 | 7 | 7
+65000 | 24 | 00314233 | 0 | 7 | 5 | 5 | 2 | 2
+75000 | 28 | xxxxxxxx | 0 | x | x | x | x | x
+85000 | 32 | xxxxxxxx | 0 | x | x | x | x | x
+95000 | 36 | xxxxxxxx | 0 | x | x | x | x | x
+$finish called at time : 100 ns : File "C:/Users/ta10580/Downloads/CA-Labs/CA-Labs/LAB11/lab11.srcs/sim_1/new/toptb.v" Line 66
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'tb_TopLevelProcessor_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:01 ; elapsed = 00:00:05 . Memory (MB): peak = 1025.070 ; gain = 0.000
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/ta10580/Downloads/CA-Labs/CA-Labs/LAB11/lab11.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'tb_TopLevelProcessor' in fileset 'sim_1'...
+INFO: [SIM-utils-43] Exported 'C:/Users/ta10580/Downloads/CA-Labs/CA-Labs/LAB11/lab11.sim/sim_1/behav/xsim/instructions.mem'
+INFO: [SIM-utils-43] Exported 'C:/Users/ta10580/Downloads/CA-Labs/CA-Labs/LAB11/lab11.sim/sim_1/behav/xsim/instructions.mem'
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/ta10580/Downloads/CA-Labs/CA-Labs/LAB11/lab11.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj tb_TopLevelProcessor_vlog.prj"
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/ta10580/Downloads/CA-Labs/CA-Labs/LAB11/lab11.sim/sim_1/behav/xsim'
+"xelab -wto f8d01134f7dc4a89acf0d8e4e2a22205 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot tb_TopLevelProcessor_behav xil_defaultlib.tb_TopLevelProcessor xil_defaultlib.glbl -log elaborate.log"
+Vivado Simulator 2020.1
+Copyright 1986-1999, 2001-2020 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2020.1/bin/unwrapped/win64.o/xelab.exe -wto f8d01134f7dc4a89acf0d8e4e2a22205 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot tb_TopLevelProcessor_behav xil_defaultlib.tb_TopLevelProcessor xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+Completed static elaboration
+INFO: [XSIM 43-4323] No Change in HDL. Linking previously generated obj files to create kernel
+INFO: [USF-XSim-69] 'elaborate' step finished in '2' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/ta10580/Downloads/CA-Labs/CA-Labs/LAB11/lab11.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "tb_TopLevelProcessor_behav -key {Behavioral:sim_1:Functional:tb_TopLevelProcessor} -tclbatch {tb_TopLevelProcessor.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2020.1
+Time resolution is 1 ps
+source tb_TopLevelProcessor.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+Time | PC | Instr | imm | rs1 | rs2 | ALU_B | ALURes | LEDs
+0 | 0 | 13050000 | 0 | 0 | 0 | 0 | 0 | 0
+15000 | 4 | 83200000 | 0 | 0 | 0 | 0 | 0 | 0
+25000 | 8 | 93011000 | 0 | 0 | 0 | 0 | 0 | 0
+35000 | 12 | 63863002 | 0 | 0 | 0 | 0 | 0 | 0
+45000 | 16 | 630a0500 | 0 | 0 | 0 | 0 | 0 | 0
+55000 | 20 | 630c0102 | 0 | 0 | 0 | 0 | 0 | 0
+65000 | 24 | 23242000 | 0 | 0 | 0 | 0 | 0 | 0
+75000 | 28 | 130111ff | 0 | 0 | 0 | 0 | 0 | 0
+85000 | 32 | e30a00fe | 0 | 0 | 0 | 0 | 0 | 0
+95000 | 36 | 03214000 | 0 | 0 | 0 | 0 | 0 | 0
+$finish called at time : 100 ns : File "C:/Users/ta10580/Downloads/CA-Labs/CA-Labs/LAB11/lab11.srcs/sim_1/new/toptb.v" Line 66
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'tb_TopLevelProcessor_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:03 ; elapsed = 00:00:05 . Memory (MB): peak = 1025.070 ; gain = 0.000
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/ta10580/Downloads/CA-Labs/CA-Labs/LAB11/lab11.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'tb_TopLevelProcessor' in fileset 'sim_1'...
+INFO: [SIM-utils-43] Exported 'C:/Users/ta10580/Downloads/CA-Labs/CA-Labs/LAB11/lab11.sim/sim_1/behav/xsim/instructions.mem'
+INFO: [SIM-utils-43] Exported 'C:/Users/ta10580/Downloads/CA-Labs/CA-Labs/LAB11/lab11.sim/sim_1/behav/xsim/instructions.mem'
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/ta10580/Downloads/CA-Labs/CA-Labs/LAB11/lab11.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj tb_TopLevelProcessor_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/ta10580/Downloads/CA-Labs/CA-Labs/LAB11/lab11.srcs/sources_1/new/2_MUX.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module MUX
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/ta10580/Downloads/CA-Labs/CA-Labs/LAB11/lab11.srcs/sources_1/new/ALU.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ALU
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/ta10580/Downloads/CA-Labs/CA-Labs/LAB11/lab11.srcs/sources_1/new/ALUControl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ALUControl
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/ta10580/Downloads/CA-Labs/CA-Labs/LAB11/lab11.srcs/sources_1/new/BranchAdd.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module BranchAdd
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/ta10580/Downloads/CA-Labs/CA-Labs/LAB11/lab11.srcs/sources_1/new/DataMemory.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module DataMemory
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/ta10580/Downloads/CA-Labs/CA-Labs/LAB11/lab11.srcs/sources_1/new/InstructionMemory.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module instructionMemory
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/ta10580/Downloads/CA-Labs/CA-Labs/LAB11/lab11.srcs/sources_1/new/MainControl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module MainControl
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/ta10580/Downloads/CA-Labs/CA-Labs/LAB11/lab11.srcs/sources_1/new/PC.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module PC
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/ta10580/Downloads/CA-Labs/CA-Labs/LAB11/lab11.srcs/sources_1/new/PCAdder.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module PCAdder
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/ta10580/Downloads/CA-Labs/CA-Labs/LAB11/lab11.srcs/sources_1/new/Register.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Register
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/ta10580/Downloads/CA-Labs/CA-Labs/LAB11/lab11.srcs/sources_1/new/TopProcessor.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module topProcessor
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/ta10580/Downloads/CA-Labs/CA-Labs/LAB11/lab11.srcs/sources_1/new/immGen.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module immGen
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/ta10580/Downloads/CA-Labs/CA-Labs/LAB11/lab11.srcs/sim_1/new/toptb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module tb_TopLevelProcessor
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/ta10580/Downloads/CA-Labs/CA-Labs/LAB11/lab11.sim/sim_1/behav/xsim'
+"xelab -wto f8d01134f7dc4a89acf0d8e4e2a22205 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot tb_TopLevelProcessor_behav xil_defaultlib.tb_TopLevelProcessor xil_defaultlib.glbl -log elaborate.log"
+Vivado Simulator 2020.1
+Copyright 1986-1999, 2001-2020 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2020.1/bin/unwrapped/win64.o/xelab.exe -wto f8d01134f7dc4a89acf0d8e4e2a22205 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot tb_TopLevelProcessor_behav xil_defaultlib.tb_TopLevelProcessor xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.ALU
+Compiling module xil_defaultlib.Register
+Compiling module xil_defaultlib.DataMemory
+Compiling module xil_defaultlib.MainControl
+Compiling module xil_defaultlib.ALUControl
+Compiling module xil_defaultlib.instructionMemory
+Compiling module xil_defaultlib.MUX
+Compiling module xil_defaultlib.PC
+Compiling module xil_defaultlib.PCAdder
+Compiling module xil_defaultlib.BranchAdd
+Compiling module xil_defaultlib.immGen
+Compiling module xil_defaultlib.topProcessor
+Compiling module xil_defaultlib.tb_TopLevelProcessor
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot tb_TopLevelProcessor_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '2' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/ta10580/Downloads/CA-Labs/CA-Labs/LAB11/lab11.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "tb_TopLevelProcessor_behav -key {Behavioral:sim_1:Functional:tb_TopLevelProcessor} -tclbatch {tb_TopLevelProcessor.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2020.1
+Time resolution is 1 ps
+source tb_TopLevelProcessor.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+Time | PC | Instr | imm | rs1 | rs2 | ALU_B | ALURes | LEDs
+0 | 0 | 00000513 | 0 | 0 | 0 | 0 | 0 | 0
+15000 | 4 | 00002083 | 0 | 0 | 0 | 0 | 0 | 0
+25000 | 8 | 00100193 | 1 | 0 | x | 1 | 1 | 1
+35000 | 12 | 02308663 | 22 | x | 1 | 1 | x | x
+45000 | X | xxxxxxxx | 0 | x | x | x | x | x
+55000 | x | xxxxxxxx | 0 | x | x | x | x | x
+$finish called at time : 100 ns : File "C:/Users/ta10580/Downloads/CA-Labs/CA-Labs/LAB11/lab11.srcs/sim_1/new/toptb.v" Line 66
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'tb_TopLevelProcessor_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:04 ; elapsed = 00:00:05 . Memory (MB): peak = 1025.070 ; gain = 0.000
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+exit
+INFO: [Common 17-206] Exiting Vivado at Fri Oct 30 09:55:59 2026...

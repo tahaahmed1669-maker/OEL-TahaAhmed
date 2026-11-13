@@ -1,0 +1,19 @@
+0.7
+2020.1
+May 27 2020
+20:09:33
+C:/Users/ta10580/Downloads/CA-Labs/CA-Labs/LAB11/lab11.sim/sim_1/behav/xsim/glbl.v,1792727311,verilog,,,,glbl,,,,,,,,
+C:/Users/ta10580/Downloads/CA-Labs/CA-Labs/LAB11/lab11.srcs/sim_1/new/pc_tb.v,1792727311,verilog,,,,pc_tb,,,,,,,,
+C:/Users/ta10580/Downloads/CA-Labs/CA-Labs/LAB11/lab11.srcs/sim_1/new/toptb.v,1793941780,verilog,,,,tb_TopLevelProcessor,,,,,,,,
+C:/Users/ta10580/Downloads/CA-Labs/CA-Labs/LAB11/lab11.srcs/sources_1/new/2_MUX.v,1794541744,verilog,,C:/Users/ta10580/Downloads/CA-Labs/CA-Labs/LAB11/lab11.srcs/sources_1/new/ALU.v,,MUX,,,,,,,,
+C:/Users/ta10580/Downloads/CA-Labs/CA-Labs/LAB11/lab11.srcs/sources_1/new/ALU.v,1792727311,verilog,,C:/Users/ta10580/Downloads/CA-Labs/CA-Labs/LAB11/lab11.srcs/sources_1/new/ALUControl.v,,ALU,,,,,,,,
+C:/Users/ta10580/Downloads/CA-Labs/CA-Labs/LAB11/lab11.srcs/sources_1/new/ALUControl.v,1793940984,verilog,,C:/Users/ta10580/Downloads/CA-Labs/CA-Labs/LAB11/lab11.srcs/sources_1/new/BranchAdd.v,,ALUControl,,,,,,,,
+C:/Users/ta10580/Downloads/CA-Labs/CA-Labs/LAB11/lab11.srcs/sources_1/new/BranchAdd.v,1792727311,verilog,,C:/Users/ta10580/Downloads/CA-Labs/CA-Labs/LAB11/lab11.srcs/sources_1/new/DataMemory.v,,BranchAdd,,,,,,,,
+C:/Users/ta10580/Downloads/CA-Labs/CA-Labs/LAB11/lab11.srcs/sources_1/new/DataMemory.v,1793939611,verilog,,C:/Users/ta10580/Downloads/CA-Labs/CA-Labs/LAB11/lab11.srcs/sources_1/new/InstructionMemory.v,,DataMemory,,,,,,,,
+C:/Users/ta10580/Downloads/CA-Labs/CA-Labs/LAB11/lab11.srcs/sources_1/new/InstructionMemory.v,1793937362,verilog,,C:/Users/ta10580/Downloads/CA-Labs/CA-Labs/LAB11/lab11.srcs/sources_1/new/MainControl.v,,instructionMemory,,,,,,,,
+C:/Users/ta10580/Downloads/CA-Labs/CA-Labs/LAB11/lab11.srcs/sources_1/new/MainControl.v,1792727311,verilog,,C:/Users/ta10580/Downloads/CA-Labs/CA-Labs/LAB11/lab11.srcs/sources_1/new/PC.v,,MainControl,,,,,,,,
+C:/Users/ta10580/Downloads/CA-Labs/CA-Labs/LAB11/lab11.srcs/sources_1/new/PC.v,1792727311,verilog,,C:/Users/ta10580/Downloads/CA-Labs/CA-Labs/LAB11/lab11.srcs/sources_1/new/PCAdder.v,,PC,,,,,,,,
+C:/Users/ta10580/Downloads/CA-Labs/CA-Labs/LAB11/lab11.srcs/sources_1/new/PCAdder.v,1792727311,verilog,,C:/Users/ta10580/Downloads/CA-Labs/CA-Labs/LAB11/lab11.srcs/sources_1/new/Register.v,,PCAdder,,,,,,,,
+C:/Users/ta10580/Downloads/CA-Labs/CA-Labs/LAB11/lab11.srcs/sources_1/new/Register.v,1792727311,verilog,,C:/Users/ta10580/Downloads/CA-Labs/CA-Labs/LAB11/lab11.srcs/sources_1/new/TopProcessor.v,,Register,,,,,,,,
+C:/Users/ta10580/Downloads/CA-Labs/CA-Labs/LAB11/lab11.srcs/sources_1/new/TopProcessor.v,1793941008,verilog,,C:/Users/ta10580/Downloads/CA-Labs/CA-Labs/LAB11/lab11.srcs/sources_1/new/immGen.v,,topProcessor,,,,,,,,
+C:/Users/ta10580/Downloads/CA-Labs/CA-Labs/LAB11/lab11.srcs/sources_1/new/immGen.v,1792727311,verilog,,C:/Users/ta10580/Downloads/CA-Labs/CA-Labs/LAB11/lab11.srcs/sim_1/new/toptb.v,,immGen,,,,,,,,

@@ -1,0 +1,75 @@
+#-----------------------------------------------------------
+# Vivado v2020.1 (64-bit)
+# SW Build 2902540 on Wed May 27 19:54:49 MDT 2020
+# IP Build 2902112 on Wed May 27 22:43:36 MDT 2020
+# Start of session at: Fri Nov  6 08:51:14 2026
+# Process ID: 48040
+# Current directory: C:/Users/ta10580/Downloads/CA-Labs/CA-Labs/LAB11
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent33400 C:\Users\ta10580\Downloads\CA-Labs\CA-Labs\LAB11\lab11.xpr
+# Log file: C:/Users/ta10580/Downloads/CA-Labs/CA-Labs/LAB11/vivado.log
+# Journal file: C:/Users/ta10580/Downloads/CA-Labs/CA-Labs/LAB11\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/ta10580/Downloads/CA-Labs/CA-Labs/LAB11/lab11.xpr
+update_compile_order -fileset sources_1
+launch_simulation
+source tb_TopLevelProcessor.tcl
+close_sim
+launch_simulation
+source tb_TopLevelProcessor.tcl
+close_sim
+launch_simulation
+source tb_TopLevelProcessor.tcl
+close_sim
+launch_simulation
+source tb_TopLevelProcessor.tcl
+close_sim
+launch_simulation
+source tb_TopLevelProcessor.tcl
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+close_sim
+launch_simulation
+launch_simulation
+launch_simulation
+source tb_TopLevelProcessor.tcl
+close_sim
+launch_simulation
+source tb_TopLevelProcessor.tcl
+close_sim
+launch_simulation
+source tb_TopLevelProcessor.tcl
+close_sim
+launch_simulation
+source tb_TopLevelProcessor.tcl
+close_sim
+launch_simulation
+source tb_TopLevelProcessor.tcl
+close_sim
+launch_simulation
+source tb_TopLevelProcessor.tcl
+close_sim
+launch_simulation
+source tb_TopLevelProcessor.tcl
+close_sim
+launch_simulation
+source tb_TopLevelProcessor.tcl
+close_sim
+launch_simulation
+source tb_TopLevelProcessor.tcl
+run all
+run all
+close_sim
+launch_simulation
+source tb_TopLevelProcessor.tcl
+run 10 us
+run 10 us
+close_sim
+launch_simulation
+source tb_TopLevelProcessor.tcl
+run 10 us
+close_sim
+launch_simulation
+source tb_TopLevelProcessor.tcl
+run 10 us
+close_sim

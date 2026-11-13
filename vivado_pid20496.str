@@ -1,0 +1,559 @@
+/*
+
+Xilinx Vivado v2020.1 (64-bit) [Major: 2020, Minor: 1]
+SW Build: 2902540 on Wed May 27 19:54:49 MDT 2020
+IP Build: 2902112 on Wed May 27 22:43:36 MDT 2020
+
+Process ID (PID): 20496
+License: Customer
+
+Current time: 	Fri Nov 13 08:34:34 PKT 2026
+Time zone: 	Pakistan Standard Time (Asia/Karachi)
+
+OS: Windows 10
+OS Version: 10.0
+OS Architecture: amd64
+Available processors (cores): 20
+
+Screen size: 1920x1080
+Screen resolution (DPI): 100
+Available screens: 1
+Default font: family=Dialog,name=Dialog,style=plain,size=12
+
+Java version: 	9.0.4 64-bit
+Java home: 	C:/Xilinx/Vivado/2020.1/tps/win64/jre9.0.4
+Java executable location: 	C:/Xilinx/Vivado/2020.1/tps/win64/jre9.0.4/bin/java.exe
+Java initial memory (-Xms): 	128 MB
+Java maximum memory (-Xmx):	 3 GB
+
+
+User name: 	ta10580
+User home directory: C:/Users/ta10580
+User working directory: C:/Users/ta10580/Downloads/CA-Labs/CA-Labs/LAB11
+User country: 	US
+User language: 	en
+User locale: 	en_US
+
+RDI_BASEROOT: C:/Xilinx/Vivado
+HDI_APPROOT: C:/Xilinx/Vivado/2020.1
+RDI_DATADIR: C:/Xilinx/Vivado/2020.1/data
+RDI_BINDIR: C:/Xilinx/Vivado/2020.1/bin
+
+Vivado preferences file location: C:/Users/ta10580/AppData/Roaming/Xilinx/Vivado/2020.1/vivado.xml
+Vivado preferences directory: C:/Users/ta10580/AppData/Roaming/Xilinx/Vivado/2020.1/
+Vivado layouts directory: C:/Users/ta10580/AppData/Roaming/Xilinx/Vivado/2020.1/data/layouts
+PlanAhead jar file location: 	C:/Xilinx/Vivado/2020.1/lib/classes/planAhead.jar
+Vivado log file location: 	C:/Users/ta10580/Downloads/CA-Labs/CA-Labs/LAB11/vivado.log
+Vivado journal file location: 	C:/Users/ta10580/Downloads/CA-Labs/CA-Labs/LAB11/vivado.jou
+Engine tmp dir: 	C:/Users/ta10580/Downloads/CA-Labs/CA-Labs/LAB11/.Xil/Vivado-20496-HU-DOPX-ML05
+
+Xilinx Environment Variables
+----------------------------
+XILINX: C:/Xilinx/Vivado/2020.1/ids_lite/ISE
+XILINX_DSP: C:/Xilinx/Vivado/2020.1/ids_lite/ISE
+XILINX_PLANAHEAD: C:/Xilinx/Vivado/2020.1
+XILINX_VIVADO: C:/Xilinx/Vivado/2020.1
+XILINX_VIVADO_HLS: C:/Xilinx/Vivado/2020.1
+
+
+GUI allocated memory:	154 MB
+GUI max memory:		3,072 MB
+Engine allocated memory: 1,013 MB
+
+Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
+
+*/
+
+// TclEventType: START_GUI
+// TclEventType: PROJECT_OPEN_DIALOG
+// Tcl Message: start_gui 
+// TclEventType: PROJECT_OPEN_DIALOG
+// bz (cs):  Open Project : addNotify
+// Opening Vivado Project: C:\Users\ta10580\Downloads\CA-Labs\CA-Labs\LAB11\lab11.xpr. Version: Vivado v2020.1 
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// Tcl Message: open_project C:/Users/ta10580/Downloads/CA-Labs/CA-Labs/LAB11/lab11.xpr 
+// TclEventType: MSGMGR_MOVEMSG
+// TclEventType: FILE_SET_NEW
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_CURRENT
+// TclEventType: PROJECT_DASHBOARD_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_NEW
+// Tcl Message: open_project C:/Users/ta10580/Downloads/CA-Labs/CA-Labs/LAB11/lab11.xpr 
+// Tcl Message: Scanning sources... Finished scanning sources 
+// Tcl Message: INFO: [IP_Flow 19-234] Refreshing IP repositories INFO: [IP_Flow 19-1704] No user IP repositories specified 
+// TclEventType: PROJECT_NEW
+// [GUI Memory]: 119 MB (+121874kb) [00:00:08]
+// [Engine Memory]: 1,013 MB (+910891kb) [00:00:08]
+// WARNING: HEventQueue.dispatchEvent() is taking  1369 ms.
+// Tcl Message: INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2020.1/data/ip'. 
+// Project name: lab11; location: C:/Users/ta10580/Downloads/CA-Labs/CA-Labs/LAB11; part: xc7a35tcpg236-1
+dismissDialog("Open Project"); // bz (cs)
+// HMemoryUtils.trashcanNow. Engine heap size: 1,013 MB. GUI used memory: 56 MB. Current time: 11/13/26, 8:34:35 AM PKT
+// Tcl Command: 'rdi::info_commands {device::*}'
+// Tcl Command: 'rdi::info_commands {debug::*}'
+// Tcl Command: 'rdi::info_commands {*}'
+// Tcl Message: update_compile_order -fileset sources_1 
+// [GUI Memory]: 132 MB (+8058kb) [00:00:22]
+// Elapsed time: 116 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, topProcessor (TopProcessor.v)]", 1, true); // B (F, cs) - Node
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, topProcessor (TopProcessor.v)]", 1); // B (F, cs)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, topProcessor (TopProcessor.v)]", 1, true); // B (F, cs) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, topProcessor (TopProcessor.v)]", 1, true, false, false, false, false, true); // B (F, cs) - Double Click - Node
+// Elapsed time: 243 seconds
+selectCodeEditor("TopProcessor.v", 128, 179); // bP (w, cs)
+// Elapsed time: 207 seconds
+selectCodeEditor("TopProcessor.v", 39, 300); // bP (w, cs)
+selectCodeEditor("TopProcessor.v", 39, 300, false, false, false, false, true); // bP (w, cs) - Double Click
+typeControlKey((HResource) null, "TopProcessor.v", 'c'); // bP (w, cs)
+// Elapsed time: 169 seconds
+selectCodeEditor("TopProcessor.v", 76, 141); // bP (w, cs)
+selectCodeEditor("TopProcessor.v", 121, 206); // bP (w, cs)
+selectCodeEditor("TopProcessor.v", 127, 260); // bP (w, cs)
+selectCodeEditor("TopProcessor.v", 121, 251); // bP (w, cs)
+selectCodeEditor("TopProcessor.v", 130, 276); // bP (w, cs)
+selectCodeEditor("TopProcessor.v", 81, 96); // bP (w, cs)
+// Elapsed time: 12 seconds
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, topProcessor (TopProcessor.v)]", 1); // B (F, cs)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, topProcessor (TopProcessor.v), alu_inst : ALU (ALU.v)]", 2, false); // B (F, cs)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, topProcessor (TopProcessor.v), alu_inst : ALU (ALU.v)]", 2, false, false, false, false, false, true); // B (F, cs) - Double Click
+selectCodeEditor("ALU.v", 273, 401); // bP (w, cs)
+selectCodeEditor("ALU.v", 363, 402); // bP (w, cs)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, topProcessor (TopProcessor.v), alu_inst : ALU (ALU.v)]", 2, false); // B (F, cs)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, topProcessor (TopProcessor.v), alu_inst : ALU (ALU.v)]", 2, false, false, false, false, false, true); // B (F, cs) - Double Click
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, topProcessor (TopProcessor.v), reg_file_inst : Register (Register.v)]", 3, false); // B (F, cs)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, topProcessor (TopProcessor.v), reg_file_inst : Register (Register.v)]", 3, false, false, false, false, false, true); // B (F, cs) - Double Click
+selectCodeEditor("Register.v", 208, 363); // bP (w, cs)
+selectCodeEditor("Register.v", 198, 368); // bP (w, cs)
+selectCodeEditor("Register.v", 186, 267); // bP (w, cs)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, topProcessor (TopProcessor.v), data_mem_inst : DataMemory (DataMemory.v)]", 4, false); // B (F, cs)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, topProcessor (TopProcessor.v), data_mem_inst : DataMemory (DataMemory.v)]", 4, false, false, false, false, false, true); // B (F, cs) - Double Click
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "TopProcessor.v", 1); // m (l, cs)
+// TclEventType: DG_GRAPH_STALE
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, topProcessor (TopProcessor.v), data_mem_inst : DataMemory (DataMemory.v)]", 4, false); // B (F, cs)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, topProcessor (TopProcessor.v), data_mem_inst : DataMemory (DataMemory.v)]", 4, false, false, false, false, false, true); // B (F, cs) - Double Click
+selectCodeEditor("DataMemory.v", 324, 364); // bP (w, cs)
+selectCodeEditor("DataMemory.v", 241, 430); // bP (w, cs)
+selectCodeEditor("DataMemory.v", 451, 379); // bP (w, cs)
+selectCodeEditor("DataMemory.v", 451, 373); // bP (w, cs)
+selectCodeEditor("DataMemory.v", 292, 307); // bP (w, cs)
+selectCodeEditor("DataMemory.v", 304, 296); // bP (w, cs)
+selectCodeEditor("DataMemory.v", 298, 296); // bP (w, cs)
+selectCodeEditor("DataMemory.v", 149, 260); // bP (w, cs)
+selectCodeEditor("DataMemory.v", 150, 260, false, false, false, false, true); // bP (w, cs) - Double Click
+selectCodeEditor("DataMemory.v", 104, 266); // bP (w, cs)
+selectCodeEditor("DataMemory.v", 104, 266, false, false, false, false, true); // bP (w, cs) - Double Click
+selectCodeEditor("DataMemory.v", 92, 368); // bP (w, cs)
+selectCodeEditor("DataMemory.v", 92, 368, false, false, false, false, true); // bP (w, cs) - Double Click
+// TclEventType: FILE_SET_CHANGE
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, topProcessor (TopProcessor.v), main_ctrl_inst : MainControl (MainControl.v)]", 5, false); // B (F, cs)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, topProcessor (TopProcessor.v), main_ctrl_inst : MainControl (MainControl.v)]", 5, false, false, false, false, false, true); // B (F, cs) - Double Click
+selectCodeEditor("MainControl.v", 264, 370); // bP (w, cs)
+typeControlKey(null, null, 'z');
+selectCodeEditor("MainControl.v", 256, 208); // bP (w, cs)
+selectCodeEditor("MainControl.v", 289, 423); // bP (w, cs)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed time: 12 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, topProcessor (TopProcessor.v), alu_ctrl_inst : ALUControl (ALUControl.v)]", 6, false); // B (F, cs)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, topProcessor (TopProcessor.v), alu_ctrl_inst : ALUControl (ALUControl.v)]", 6, false, false, false, false, false, true); // B (F, cs) - Double Click
+selectCodeEditor("ALUControl.v", 126, 328); // bP (w, cs)
+typeControlKey(null, null, 'z');
+selectCodeEditor("ALUControl.v", 320, 179); // bP (w, cs)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, topProcessor (TopProcessor.v), inst_mem : instructionMemory (InstructionMemory.v)]", 7, false); // B (F, cs)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, topProcessor (TopProcessor.v), inst_mem : instructionMemory (InstructionMemory.v)]", 7, false, false, false, false, false, true); // B (F, cs) - Double Click
+selectCodeEditor("InstructionMemory.v", 314, 448); // bP (w, cs)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, topProcessor (TopProcessor.v), alu_mux_inst : MUX (2_MUX.v)]", 8, false); // B (F, cs)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, topProcessor (TopProcessor.v), alu_mux_inst : MUX (2_MUX.v)]", 8, false, false, false, false, false, true); // B (F, cs) - Double Click
+selectCodeEditor("2_MUX.v", 255, 486); // bP (w, cs)
+selectCodeEditor("2_MUX.v", 646, 489); // bP (w, cs)
+selectCodeEditor("2_MUX.v", 646, 489); // bP (w, cs)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, topProcessor (TopProcessor.v), pc_inst : PC (PC.v)]", 9, false); // B (F, cs)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, topProcessor (TopProcessor.v), pc_inst : PC (PC.v)]", 9, false, false, false, false, false, true); // B (F, cs) - Double Click
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, topProcessor (TopProcessor.v), pc_adder_inst : PCAdder (PCAdder.v)]", 10, false); // B (F, cs)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, topProcessor (TopProcessor.v), pc_adder_inst : PCAdder (PCAdder.v)]", 10, false, false, false, false, false, true); // B (F, cs) - Double Click
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, topProcessor (TopProcessor.v), branch_add_inst : BranchAdd (BranchAdd.v)]", 11, false); // B (F, cs)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, topProcessor (TopProcessor.v), branch_add_inst : BranchAdd (BranchAdd.v)]", 11, false); // B (F, cs)
+// [GUI Memory]: 139 MB (+355kb) [00:14:45]
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, topProcessor (TopProcessor.v), branch_add_inst : BranchAdd (BranchAdd.v)]", 11, false, false, false, false, false, true); // B (F, cs) - Double Click
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, topProcessor (TopProcessor.v), branch_mux_inst : MUX (2_MUX.v)]", 12, false); // B (F, cs)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, topProcessor (TopProcessor.v), branch_mux_inst : MUX (2_MUX.v)]", 12, false, false, false, false, false, true); // B (F, cs) - Double Click
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, topProcessor (TopProcessor.v), memtoreg_mux_inst : MUX (2_MUX.v)]", 13, false); // B (F, cs)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, topProcessor (TopProcessor.v), memtoreg_mux_inst : MUX (2_MUX.v)]", 13, false, false, false, false, false, true); // B (F, cs) - Double Click
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, topProcessor (TopProcessor.v), memtoreg_mux_inst : MUX (2_MUX.v)]", 13, false); // B (F, cs)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, topProcessor (TopProcessor.v), memtoreg_mux_inst : MUX (2_MUX.v)]", 13, false, false, false, false, false, true); // B (F, cs) - Double Click
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, topProcessor (TopProcessor.v), imm_gen_inst : immGen (immGen.v)]", 14, false); // B (F, cs)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, topProcessor (TopProcessor.v), imm_gen_inst : immGen (immGen.v)]", 14, false, false, false, false, false, true); // B (F, cs) - Double Click
+selectCodeEditor("immGen.v", 192, 361); // bP (w, cs)
+selectCodeEditor("immGen.v", 204, 478); // bP (w, cs)
+selectCodeEditor("immGen.v", 124, 401); // bP (w, cs)
+selectCodeEditor("immGen.v", 121, 330); // bP (w, cs)
+selectCodeEditor("immGen.v", 240, 384); // bP (w, cs)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, leds (leds.v)]", 15, false); // B (F, cs)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, leds (leds.v)]", 15, false); // B (F, cs)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, leds (leds.v)]", 15, false, false, false, false, false, true); // B (F, cs) - Double Click
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, topProcessor (TopProcessor.v)]", 1, true); // B (F, cs) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, topProcessor (TopProcessor.v)]", 1, true, false, false, false, false, true); // B (F, cs) - Double Click - Node
+// Elapsed time: 48 seconds
+selectCodeEditor("TopProcessor.v", 144, 378); // bP (w, cs)
+// Elapsed time: 70 seconds
+selectCodeEditor("TopProcessor.v", 66, 160); // bP (w, cs)
+selectCodeEditor("TopProcessor.v", 66, 160, false, false, false, false, true); // bP (w, cs) - Double Click
+// Elapsed time: 37 seconds
+selectCodeEditor("TopProcessor.v", 214, 419); // bP (w, cs)
+setText(RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX, "imm", true); // l (au, cs)
+applyEnter(RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX, "imm"); // l (au, cs)
+applyEnter(RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX, "imm"); // l (au, cs)
+applyEnter(RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX, "imm"); // l (au, cs)
+selectCodeEditor("TopProcessor.v", 104, 268); // bP (w, cs)
+selectCodeEditor("TopProcessor.v", 136, 243); // bP (w, cs)
+selectCodeEditor("TopProcessor.v", 136, 243, false, false, false, false, true); // bP (w, cs) - Double Click
+selectCodeEditor("TopProcessor.v", 92, 192); // bP (w, cs)
+selectCodeEditor("TopProcessor.v", 92, 192, false, false, false, false, true); // bP (w, cs) - Double Click
+selectCodeEditor("TopProcessor.v", 66, 209); // bP (w, cs)
+selectCodeEditor("TopProcessor.v", 66, 209, false, false, false, false, true); // bP (w, cs) - Double Click
+typeControlKey((HResource) null, "TopProcessor.v", 'c'); // bP (w, cs)
+applyEnter(RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX, "ALU_B"); // l (au, cs)
+applyEnter(RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX, "ALU_B"); // l (au, cs)
+setText(RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX, "ALU_B"); // l (au, cs)
+// Elapsed time: 17 seconds
+setText(RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX, "ALU_B"); // l (au, cs)
+// Elapsed time: 16 seconds
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, topProcessor (TopProcessor.v)]", 1); // B (F, cs)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, topProcessor (TopProcessor.v), alu_inst : ALU (ALU.v)]", 2, false); // B (F, cs)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, topProcessor (TopProcessor.v), alu_inst : ALU (ALU.v)]", 2, false, false, false, false, false, true); // B (F, cs) - Double Click
+// Elapsed time: 43 seconds
+selectCodeEditor("ALU.v", 223, 208); // bP (w, cs)
+setText(RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX, (String) null); // l (au, cs)
+selectButton(RDIResource.HCodeEditor_CLOSE, (String) null); // k (am, cs)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, topProcessor (TopProcessor.v), alu_inst : ALU (ALU.v)]", 2, false); // B (F, cs)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, topProcessor (TopProcessor.v), alu_inst : ALU (ALU.v)]", 2, false, false, false, false, false, true); // B (F, cs) - Double Click
+selectCodeEditor("ALU.v", 222, 205); // bP (w, cs)
+setText(RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX, "always @(*)"); // l (au, cs)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, topProcessor (TopProcessor.v), reg_file_inst : Register (Register.v)]", 3, false); // B (F, cs)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, topProcessor (TopProcessor.v), reg_file_inst : Register (Register.v)]", 3, false, false, false, false, false, true); // B (F, cs) - Double Click
+setText(RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX, "always @(*)"); // l (au, cs)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, topProcessor (TopProcessor.v), data_mem_inst : DataMemory (DataMemory.v)]", 4, false); // B (F, cs)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, topProcessor (TopProcessor.v), data_mem_inst : DataMemory (DataMemory.v)]", 4, false, false, false, false, false, true); // B (F, cs) - Double Click
+setText(RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX, "always @(*)"); // l (au, cs)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, topProcessor (TopProcessor.v), main_ctrl_inst : MainControl (MainControl.v)]", 5, false); // B (F, cs)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, topProcessor (TopProcessor.v), main_ctrl_inst : MainControl (MainControl.v)]", 5, false, false, false, false, false, true); // B (F, cs) - Double Click
+setText(RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX, "always @(*)"); // l (au, cs)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, topProcessor (TopProcessor.v), alu_ctrl_inst : ALUControl (ALUControl.v)]", 6, false); // B (F, cs)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, topProcessor (TopProcessor.v), alu_ctrl_inst : ALUControl (ALUControl.v)]", 6, false); // B (F, cs)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, topProcessor (TopProcessor.v), alu_ctrl_inst : ALUControl (ALUControl.v)]", 6, false, false, false, false, false, true); // B (F, cs) - Double Click
+setText(RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX, "always @(*)"); // l (au, cs)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, topProcessor (TopProcessor.v), inst_mem : instructionMemory (InstructionMemory.v)]", 7, false); // B (F, cs)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, topProcessor (TopProcessor.v), inst_mem : instructionMemory (InstructionMemory.v)]", 7, false, false, false, false, false, true); // B (F, cs) - Double Click
+setText(RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX, "always @(*)"); // l (au, cs)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, topProcessor (TopProcessor.v), alu_mux_inst : MUX (2_MUX.v)]", 8, false); // B (F, cs)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, topProcessor (TopProcessor.v), alu_mux_inst : MUX (2_MUX.v)]", 8, false, false, false, false, false, true); // B (F, cs) - Double Click
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, topProcessor (TopProcessor.v), inst_mem : instructionMemory (InstructionMemory.v)]", 7, false); // B (F, cs)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, topProcessor (TopProcessor.v), inst_mem : instructionMemory (InstructionMemory.v)]", 7, false, false, false, false, false, true); // B (F, cs) - Double Click
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, topProcessor (TopProcessor.v), alu_mux_inst : MUX (2_MUX.v)]", 8, false); // B (F, cs)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, topProcessor (TopProcessor.v), alu_mux_inst : MUX (2_MUX.v)]", 8, false); // B (F, cs)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, topProcessor (TopProcessor.v), alu_mux_inst : MUX (2_MUX.v)]", 8, false, false, false, false, false, true); // B (F, cs) - Double Click
+selectCodeEditor("2_MUX.v", 144, 221); // bP (w, cs)
+setText(RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX, "always @(*)"); // l (au, cs)
+applyEnter(RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX, "always @(*)"); // l (au, cs)
+// Elapsed time: 12 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, topProcessor (TopProcessor.v), pc_inst : PC (PC.v)]", 9, false); // B (F, cs)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, topProcessor (TopProcessor.v), pc_inst : PC (PC.v)]", 9, false, false, false, false, false, true); // B (F, cs) - Double Click
+setText(RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX, "always @(*)"); // l (au, cs)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, topProcessor (TopProcessor.v), pc_adder_inst : PCAdder (PCAdder.v)]", 10, false); // B (F, cs)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, topProcessor (TopProcessor.v), pc_adder_inst : PCAdder (PCAdder.v)]", 10, false, false, false, false, false, true); // B (F, cs) - Double Click
+setText(RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX, "always @(*)", true); // l (au, cs)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, topProcessor (TopProcessor.v), branch_add_inst : BranchAdd (BranchAdd.v)]", 11, false); // B (F, cs)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, topProcessor (TopProcessor.v), branch_add_inst : BranchAdd (BranchAdd.v)]", 11, false, false, false, false, false, true); // B (F, cs) - Double Click
+setText(RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX, "always @(*)", true); // l (au, cs)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, topProcessor (TopProcessor.v), branch_mux_inst : MUX (2_MUX.v)]", 12, false); // B (F, cs)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, topProcessor (TopProcessor.v), branch_mux_inst : MUX (2_MUX.v)]", 12, false, false, false, false, false, true); // B (F, cs) - Double Click
+setText(RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX, "always @(*)", true); // l (au, cs)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, topProcessor (TopProcessor.v), memtoreg_mux_inst : MUX (2_MUX.v)]", 13, false); // B (F, cs)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, topProcessor (TopProcessor.v), memtoreg_mux_inst : MUX (2_MUX.v)]", 13, false, false, false, false, false, true); // B (F, cs) - Double Click
+// Elapsed time: 28 seconds
+setText(RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX, "always @(*)"); // l (au, cs)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, topProcessor (TopProcessor.v), imm_gen_inst : immGen (immGen.v)]", 14, false); // B (F, cs)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, topProcessor (TopProcessor.v), imm_gen_inst : immGen (immGen.v)]", 14, false, false, false, false, false, true); // B (F, cs) - Double Click
+selectCodeEditor("immGen.v", 79, 210); // bP (w, cs)
+typeControlKey((HResource) null, "immGen.v", 'c'); // bP (w, cs)
+setText(RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX, "always @ (*"); // l (au, cs)
+selectCodeEditor("immGen.v", 132, 175); // bP (w, cs)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, topProcessor (TopProcessor.v), pc_adder_inst : PCAdder (PCAdder.v)]", 10, false); // B (F, cs)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, topProcessor (TopProcessor.v), pc_adder_inst : PCAdder (PCAdder.v)]", 10, false, false, false, false, false, true); // B (F, cs) - Double Click
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, topProcessor (TopProcessor.v)]", 1, true); // B (F, cs) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, topProcessor (TopProcessor.v)]", 1, true, false, false, false, false, true); // B (F, cs) - Double Click - Node
+selectCodeEditor("TopProcessor.v", 374, 346); // bP (w, cs)
+selectCodeEditor("TopProcessor.v", 82, 278); // bP (w, cs)
+selectCodeEditor("TopProcessor.v", 82, 278, false, false, false, false, true); // bP (w, cs) - Double Click
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, topProcessor (TopProcessor.v)]", 1); // B (F, cs)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, topProcessor (TopProcessor.v), reg_file_inst : Register (Register.v)]", 3, false); // B (F, cs)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, topProcessor (TopProcessor.v), reg_file_inst : Register (Register.v)]", 3, false, false, false, false, false, true); // B (F, cs) - Double Click
+selectCodeEditor("Register.v", 142, 294); // bP (w, cs)
+typeControlKey((HResource) null, "Register.v", 'c'); // bP (w, cs)
+setText(RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX, "always @(posedge clk"); // l (au, cs)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, topProcessor (TopProcessor.v), data_mem_inst : DataMemory (DataMemory.v)]", 4, false); // B (F, cs)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, topProcessor (TopProcessor.v), data_mem_inst : DataMemory (DataMemory.v)]", 4, false, false, false, false, false, true); // B (F, cs) - Double Click
+setText(RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX, "always @(*)always @(posedge clk", true); // l (au, cs)
+selectCodeEditor("DataMemory.v", 173, 461); // bP (w, cs)
+typeControlKey((HResource) null, "DataMemory.v", 'c'); // bP (w, cs)
+setText(RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX, "always @(posedge clk)"); // l (au, cs)
+typeControlKey(null, null, 'z');
+setText(RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX, (String) null); // l (au, cs)
+typeControlKey(null, null, 'z');
+setText(RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX, "always @(*)always @(posedge clk"); // l (au, cs)
+typeControlKey(null, null, 'z');
+// Elapsed time: 16 seconds
+setText(RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX, "always @(*)always @(posedge clk)"); // l (au, cs)
+selectCodeEditor("DataMemory.v", 172, 467); // bP (w, cs)
+selectCodeEditor("DataMemory.v", 59, 461); // bP (w, cs)
+selectCodeEditor("DataMemory.v", 29, 468); // bP (w, cs)
+typeControlKey((HResource) null, "DataMemory.v", 'c'); // bP (w, cs)
+setText(RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX, "always @(posedge", true); // l (au, cs)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, topProcessor (TopProcessor.v), main_ctrl_inst : MainControl (MainControl.v)]", 5, false); // B (F, cs)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, topProcessor (TopProcessor.v), main_ctrl_inst : MainControl (MainControl.v)]", 5, false, false, false, false, false, true); // B (F, cs) - Double Click
+setText(RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX, "always @(*)always @(posedge"); // l (au, cs)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, topProcessor (TopProcessor.v), inst_mem : instructionMemory (InstructionMemory.v)]", 7, false); // B (F, cs)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, topProcessor (TopProcessor.v), inst_mem : instructionMemory (InstructionMemory.v)]", 7, false); // B (F, cs)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, topProcessor (TopProcessor.v), inst_mem : instructionMemory (InstructionMemory.v)]", 7, false, false, false, false, false, true); // B (F, cs) - Double Click
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, topProcessor (TopProcessor.v), alu_mux_inst : MUX (2_MUX.v)]", 8, false); // B (F, cs)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, topProcessor (TopProcessor.v), alu_mux_inst : MUX (2_MUX.v)]", 8, false, false, false, false, false, true); // B (F, cs) - Double Click
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, topProcessor (TopProcessor.v), pc_adder_inst : PCAdder (PCAdder.v)]", 10, false); // B (F, cs)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, topProcessor (TopProcessor.v), pc_adder_inst : PCAdder (PCAdder.v)]", 10, false, false, false, false, false, true); // B (F, cs) - Double Click
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, topProcessor (TopProcessor.v), branch_add_inst : BranchAdd (BranchAdd.v)]", 11, false); // B (F, cs)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, topProcessor (TopProcessor.v), branch_add_inst : BranchAdd (BranchAdd.v)]", 11, false, false, false, false, false, true); // B (F, cs) - Double Click
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, topProcessor (TopProcessor.v), branch_mux_inst : MUX (2_MUX.v)]", 12, false); // B (F, cs)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, topProcessor (TopProcessor.v), branch_mux_inst : MUX (2_MUX.v)]", 12, false, false, false, false, false, true); // B (F, cs) - Double Click
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, topProcessor (TopProcessor.v), memtoreg_mux_inst : MUX (2_MUX.v)]", 13, false); // B (F, cs)
+// [GUI Memory]: 146 MB (+52kb) [00:22:36]
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, topProcessor (TopProcessor.v), memtoreg_mux_inst : MUX (2_MUX.v)]", 13, false, false, false, false, false, true); // B (F, cs) - Double Click
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, topProcessor (TopProcessor.v), imm_gen_inst : immGen (immGen.v)]", 14, false); // B (F, cs)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, topProcessor (TopProcessor.v), imm_gen_inst : immGen (immGen.v)]", 14, false, false, false, false, false, true); // B (F, cs) - Double Click
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, topProcessor (TopProcessor.v)]", 1, true); // B (F, cs) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, topProcessor (TopProcessor.v)]", 1, true, false, false, false, false, true); // B (F, cs) - Double Click - Node
+typeControlKey((HResource) null, "TopProcessor.v", 'v'); // bP (w, cs)
+typeControlKey(null, null, 'z');
+setText(RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX, "always @(posedge", true); // l (au, cs)
+setText(RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX, "always", true); // l (au, cs)
+// Elapsed time: 18 seconds
+selectCodeEditor("TopProcessor.v", 99, 390); // bP (w, cs)
+selectCodeEditor("TopProcessor.v", 99, 385); // bP (w, cs)
+selectCodeEditor("TopProcessor.v", 99, 385, false, false, false, false, true); // bP (w, cs) - Double Click
+selectCodeEditor("TopProcessor.v", 106, 336); // bP (w, cs)
+typeControlKey((HResource) null, "TopProcessor.v", 'c'); // bP (w, cs)
+// Elapsed time: 42 seconds
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, topProcessor (TopProcessor.v)]", 1); // B (F, cs)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, topProcessor (TopProcessor.v), pc_inst : PC (PC.v)]", 9, false); // B (F, cs)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, topProcessor (TopProcessor.v), pc_inst : PC (PC.v)]", 9, false, false, false, false, false, true); // B (F, cs) - Double Click
+selectCodeEditor("PC.v", 252, 455); // bP (w, cs)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, topProcessor (TopProcessor.v)]", 1, true); // B (F, cs) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, topProcessor (TopProcessor.v)]", 1, true, false, false, false, false, true); // B (F, cs) - Double Click - Node
+selectCodeEditor("TopProcessor.v", 297, 343); // bP (w, cs)
+// Elapsed time: 54 seconds
+selectCodeEditor("TopProcessor.v", 231, 335); // bP (w, cs)
+// Elapsed time: 203 seconds
+selectCodeEditor("TopProcessor.v", 153, 161); // bP (w, cs)
+selectCodeEditor("TopProcessor.v", 153, 161, false, false, false, false, true); // bP (w, cs) - Double Click
+// Elapsed time: 35 seconds
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, topProcessor (TopProcessor.v)]", 1); // B (F, cs)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, topProcessor (TopProcessor.v), reg_file_inst : Register (Register.v)]", 3, false); // B (F, cs)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, topProcessor (TopProcessor.v), reg_file_inst : Register (Register.v)]", 3, false, false, false, false, false, true); // B (F, cs) - Double Click
+setText(RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX, "always @(posedge clk"); // l (au, cs)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "ALU.v", 2); // m (l, cs)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "TopProcessor.v", 1); // m (l, cs)
+selectCodeEditor("TopProcessor.v", 172, 193); // bP (w, cs)
+// Elapsed time: 33 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, topProcessor (TopProcessor.v), data_mem_inst : DataMemory (DataMemory.v)]", 4, false); // B (F, cs)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, topProcessor (TopProcessor.v), data_mem_inst : DataMemory (DataMemory.v)]", 4, false, false, false, false, false, true); // B (F, cs) - Double Click
+// Elapsed time: 16 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, topProcessor (TopProcessor.v)]", 1, true); // B (F, cs) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, topProcessor (TopProcessor.v)]", 1, true, false, false, false, false, true); // B (F, cs) - Double Click - Node
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, topProcessor (TopProcessor.v)]", 1); // B (F, cs)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, topProcessor (TopProcessor.v), reg_file_inst : Register (Register.v)]", 3, false); // B (F, cs)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, topProcessor (TopProcessor.v), inst_mem : instructionMemory (InstructionMemory.v)]", 7, false); // B (F, cs)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, topProcessor (TopProcessor.v), inst_mem : instructionMemory (InstructionMemory.v)]", 7, false, false, false, false, false, true); // B (F, cs) - Double Click
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, topProcessor (TopProcessor.v), main_ctrl_inst : MainControl (MainControl.v)]", 5, false); // B (F, cs)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, topProcessor (TopProcessor.v), main_ctrl_inst : MainControl (MainControl.v)]", 5, false, false, false, false, false, true); // B (F, cs) - Double Click
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, topProcessor (TopProcessor.v), data_mem_inst : DataMemory (DataMemory.v)]", 4, false); // B (F, cs)
+// HMemoryUtils.trashcanNow. Engine heap size: 1,013 MB. GUI used memory: 81 MB. Current time: 11/13/26, 9:04:37 AM PKT
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, topProcessor (TopProcessor.v), data_mem_inst : DataMemory (DataMemory.v)]", 4, false, false, false, false, false, true); // B (F, cs) - Double Click
+selectCodeEditor("DataMemory.v", 180, 104); // bP (w, cs)
+selectCodeEditor("DataMemory.v", 180, 104, false, false, false, false, true); // bP (w, cs) - Double Click
+selectCodeEditor("DataMemory.v", 100, 186); // bP (w, cs)
+selectCodeEditor("DataMemory.v", 100, 186, false, false, false, false, true); // bP (w, cs) - Double Click
+selectCodeEditor("DataMemory.v", 98, 200); // bP (w, cs)
+selectCodeEditor("DataMemory.v", 98, 200, false, false, false, false, true); // bP (w, cs) - Double Click
+// Elapsed time: 12 seconds
+selectCodeEditor("DataMemory.v", 150, 200); // bP (w, cs)
+typeControlKey((HResource) null, "DataMemory.v", 'c'); // bP (w, cs)
+typeControlKey((HResource) null, "DataMemory.v", 'c'); // bP (w, cs)
+typeControlKey((HResource) null, "DataMemory.v", 'c'); // bP (w, cs)
+typeControlKey((HResource) null, "DataMemory.v", 'c'); // bP (w, cs)
+// Elapsed time: 10 seconds
+typeControlKey((HResource) null, "DataMemory.v", 'c'); // bP (w, cs)
+typeControlKey((HResource) null, "DataMemory.v", 'c'); // bP (w, cs)
+// Elapsed time: 11 seconds
+selectCodeEditor("DataMemory.v", 215, 550); // bP (w, cs)
+selectCodeEditor("DataMemory.v", 215, 550, false, false, false, false, true); // bP (w, cs) - Double Click
+typeControlKey((HResource) null, "DataMemory.v", 'c'); // bP (w, cs)
+// Elapsed time: 26 seconds
+selectCodeEditor("DataMemory.v", 193, 130); // bP (w, cs)
+selectCodeEditor("DataMemory.v", 193, 130, false, false, false, false, true); // bP (w, cs) - Double Click
+selectCodeEditor("DataMemory.v", 186, 149); // bP (w, cs)
+selectCodeEditor("DataMemory.v", 186, 149, false, false, false, false, true); // bP (w, cs) - Double Click
+// Elapsed time: 82 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, topProcessor (TopProcessor.v)]", 1, true); // B (F, cs) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, topProcessor (TopProcessor.v)]", 1, true, false, false, false, false, true); // B (F, cs) - Double Click - Node
+// Elapsed time: 191 seconds
+selectCodeEditor("TopProcessor.v", 406, 203); // bP (w, cs)
+// Elapsed time: 13 seconds
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, RTL Analysis, Open Elaborated Design]", 12, true); // u (J, cs) - Node
+// Run Command: PAResourceCommand.PACommandNames_GOTO_RTL_DESIGN
+// A (cs): Elaborate Design: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (A)
+// bz (cs):  Open Elaborated Design : addNotify
+dismissDialog("Elaborate Design"); // A (cs)
+// Tcl Message: synth_design -rtl -name rtl_1 
+// Tcl Message: Command: synth_design -rtl -name rtl_1 Starting synth_design Using part: xc7a35tcpg236-1 Top: topProcessor 
+// TclEventType: ELABORATE_START
+// HMemoryUtils.trashcanNow. Engine heap size: 1,296 MB. GUI used memory: 81 MB. Current time: 11/13/26, 9:10:52 AM PKT
+// TclEventType: ELABORATE_FINISH
+// TclEventType: READ_XDC_FILE_START
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: POWER_CNS_STALE
+// TclEventType: POWER_REPORT_STALE
+// TclEventType: SDC_CONSTRAINT_ADD
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: READ_XDC_FILE_END
+// TclEventType: FLOORPLAN_MODIFY
+// TclEventType: DESIGN_NEW
+// HMemoryUtils.trashcanNow. Engine heap size: 1,398 MB. GUI used memory: 81 MB. Current time: 11/13/26, 9:10:56 AM PKT
+// [Engine Memory]: 1,398 MB (+350557kb) [00:36:31]
+// [Engine Memory]: 1,498 MB (+31269kb) [00:36:31]
+// TclEventType: DESIGN_NEW
+// TclEventType: HFED_INIT_ROUTE_STORAGE_COMPLETED
+// Schematic: addNotify
+// WARNING: HEventQueue.dispatchEvent() is taking  1027 ms.
+// TclEventType: CURR_DESIGN_SET
+// Tcl Message: INFO: [Device 21-403] Loading part xc7a35tcpg236-1 
+// Tcl Message: --------------------------------------------------------------------------------- 
+// Tcl Message: Starting RTL Elaboration : Time (s): cpu = 00:00:02 ; elapsed = 00:00:02 . Memory (MB): peak = 1337.629 ; gain = 234.945 
+// Tcl Message: --------------------------------------------------------------------------------- 
+// Tcl Message: 	Parameter OPERAND_LENGTH bound to: 31 - type: integer  
+// Tcl Message: --------------------------------------------------------------------------------- 
+// Tcl Message: Finished RTL Elaboration : Time (s): cpu = 00:00:04 ; elapsed = 00:00:04 . Memory (MB): peak = 1466.754 ; gain = 364.070 
+// Tcl Message: --------------------------------------------------------------------------------- 
+// Tcl Message: --------------------------------------------------------------------------------- Start Handling Custom Attributes --------------------------------------------------------------------------------- --------------------------------------------------------------------------------- 
+// Tcl Message: Finished Handling Custom Attributes : Time (s): cpu = 00:00:04 ; elapsed = 00:00:04 . Memory (MB): peak = 1466.754 ; gain = 364.070 
+// Tcl Message: --------------------------------------------------------------------------------- --------------------------------------------------------------------------------- 
+// Tcl Message: Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:04 ; elapsed = 00:00:04 . Memory (MB): peak = 1466.754 ; gain = 364.070 
+// Tcl Message: --------------------------------------------------------------------------------- 
+// Tcl Message: Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.096 . Memory (MB): peak = 1466.754 ; gain = 0.000 
+// Tcl Message: INFO: [Project 1-570] Preparing netlist for logic optimization 
+// Tcl Message:  Processing XDC Constraints Initializing timing engine Parsing XDC File [C:/Users/ta10580/Downloads/CA-Labs/CA-Labs/LAB11/lab11.srcs/constrs_1/new/const.xdc] 
+// Tcl Message: Finished Parsing XDC File [C:/Users/ta10580/Downloads/CA-Labs/CA-Labs/LAB11/lab11.srcs/constrs_1/new/const.xdc] Completed Processing XDC Constraints  
+// Tcl Message: INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s). 
+// Tcl Message: Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.002 . Memory (MB): peak = 1588.797 ; gain = 0.000 
+// Tcl Message: INFO: [Project 1-111] Unisim Transformation Summary: No Unisim elements were transformed.  
+// Tcl Message: RTL Elaboration Complete:  : Time (s): cpu = 00:00:13 ; elapsed = 00:00:08 . Memory (MB): peak = 1649.422 ; gain = 546.738 
+// Tcl Message: 30 Infos, 2 Warnings, 2 Critical Warnings and 0 Errors encountered. synth_design completed successfully 
+// Tcl Message: synth_design: Time (s): cpu = 00:00:16 ; elapsed = 00:00:14 . Memory (MB): peak = 1649.422 ; gain = 624.633 
+// [GUI Memory]: 160 MB (+6676kb) [00:36:33]
+// 'dZ' command handler elapsed time: 15 seconds
+// V (cs): Critical Messages: addNotify
+// [GUI Memory]: 169 MB (+1020kb) [00:36:33]
+// Elapsed time: 14 seconds
+dismissDialog("Open Elaborated Design"); // bz (cs)
+selectButton(PAResourceAtoD.CmdMsgDialog_OK, "OK"); // f (V)
+dismissDialog("Critical Messages"); // V (cs)
+// [Engine Memory]: 1,587 MB (+14501kb) [00:37:29]
+// Elapsed time: 55 seconds
+selectTab((HResource) null, (HResource) null, "Sources", 0); // aL (aI, cs)
+// HMemoryUtils.trashcanNow. Engine heap size: 1,587 MB. GUI used memory: 112 MB. Current time: 11/13/26, 9:11:57 AM PKT
+selectTab((HResource) null, (HResource) null, "Reports", 3); // aL (aI, cs)
+collapseTreeTable(PAResourceEtoH.ExpReportTreePanel_EXP_REPORT_TREE_TABLE, "Synth Design (synth_design) ;  ;  ;  ; ", 1); // O (J, cs)
+expandTreeTable(PAResourceEtoH.ExpReportTreePanel_EXP_REPORT_TREE_TABLE, "Synth Design (synth_design) ;  ;  ;  ; ", 1); // O (J, cs)
+selectTreeTable(PAResourceEtoH.ExpReportTreePanel_EXP_REPORT_TREE_TABLE, "Synth Design (synth_design) ;  ;  ;  ; ", 1, "Synth Design (synth_design)", 0, true, false, false, false, false, true); // O (J, cs) - Double Click - Node
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, RTL Analysis, Open Elaborated Design, Schematic]", 16, false); // u (J, cs)
+// Run Command: PAResourceCommand.PACommandNames_SCHEMATIC
+// Schematic: addNotify
+// HMemoryUtils.trashcanNow. Engine heap size: 1,639 MB. GUI used memory: 112 MB. Current time: 11/13/26, 9:12:27 AM PKT
+// Elapsed time: 19 seconds
+selectTreeTable(PAResourceEtoH.ExpReportTreePanel_EXP_REPORT_TREE_TABLE, "synth_1_synth_report_utilization_0 ; report_utilization ;  ;  ; ", 2, "report_utilization", 1, false); // O (J, cs)
+selectTreeTable(PAResourceEtoH.ExpReportTreePanel_EXP_REPORT_TREE_TABLE, "impl_1_init_report_timing_summary_0 ; report_timing_summary ; max_paths = 10;  ;  ; ", 7, "report_timing_summary", 1, false); // O (J, cs)
+expandTreeTable(PAResourceEtoH.ExpReportTreePanel_EXP_REPORT_TREE_TABLE, "impl_1_init_report_timing_summary_0 ; report_timing_summary ; max_paths = 10;  ;  ; ", 7); // O (J, cs)
+selectTreeTable(PAResourceEtoH.ExpReportTreePanel_EXP_REPORT_TREE_TABLE, "impl_1_init_report_timing_summary_0 ; report_timing_summary ; max_paths = 10;  ;  ; ", 7, "report_timing_summary", 1, false, false, false, false, false, true); // O (J, cs) - Double Click
+selectTreeTable(PAResourceEtoH.ExpReportTreePanel_EXP_REPORT_TREE_TABLE, "synth_1_synth_report_utilization_0 ; report_utilization ;  ;  ; ", 2, "synth_1_synth_report_utilization_0", 0, false); // O (J, cs)
+expandTreeTable(PAResourceEtoH.ExpReportTreePanel_EXP_REPORT_TREE_TABLE, "synth_1_synth_report_utilization_0 ; report_utilization ;  ;  ; ", 2); // O (J, cs)
+selectTreeTable(PAResourceEtoH.ExpReportTreePanel_EXP_REPORT_TREE_TABLE, "synth_1_synth_report_utilization_0 ; report_utilization ;  ;  ; ", 2, "synth_1_synth_report_utilization_0", 0, false, false, false, false, false, true); // O (J, cs) - Double Click
+selectTreeTable(PAResourceEtoH.ExpReportTreePanel_EXP_REPORT_TREE_TABLE, "synth_1_synth_report_utilization_0 ; report_utilization ;  ;  ; ", 2, "report_utilization", 1, false); // O (J, cs)
+selectTreeTable(PAResourceEtoH.ExpReportTreePanel_EXP_REPORT_TREE_TABLE, "synth_1_synth_report_utilization_0 ; report_utilization ;  ;  ; ", 2, "report_utilization", 1, false, false, false, false, false, true); // O (J, cs) - Double Click
+// [Engine Memory]: 1,694 MB (+29406kb) [00:38:12]
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Simulation, Run Simulation]", 10, false); // u (J, cs)
+selectMenuItem(PAResourceCommand.PACommandNames_SIMULATION_RUN_BEHAVIORAL, "Run Behavioral Simulation"); // ai (ao, cs)
+// Run Command: PAResourceCommand.PACommandNames_SIMULATION_RUN_BEHAVIORAL
+// e (cs):  Run Simulation : addNotify
+// TclEventType: LAUNCH_SIM
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// Tcl Message: launch_simulation 
+// Tcl Message: Command: launch_simulation  
+// Tcl Message: INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/ta10580/Downloads/CA-Labs/CA-Labs/LAB11/lab11.sim/sim_1/behav/xsim' INFO: [SIM-utils-51] Simulation object is 'sim_1' INFO: [SIM-utils-54] Inspecting design source files for 'tb_TopLevelProcessor' in fileset 'sim_1'... INFO: [SIM-utils-43] Exported 'C:/Users/ta10580/Downloads/CA-Labs/CA-Labs/LAB11/lab11.sim/sim_1/behav/xsim/instructions.mem' INFO: [SIM-utils-43] Exported 'C:/Users/ta10580/Downloads/CA-Labs/CA-Labs/LAB11/lab11.sim/sim_1/behav/xsim/instructions.mem' INFO: [USF-XSim-97] Finding global include files... INFO: [USF-XSim-98] Fetching design files from 'sim_1'... INFO: [USF-XSim-2] XSim::Compile design 
+// Tcl Message: INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/ta10580/Downloads/CA-Labs/CA-Labs/LAB11/lab11.sim/sim_1/behav/xsim' 
+// Tcl Message: "xvlog --incr --relax -prj tb_TopLevelProcessor_vlog.prj" 
+// HMemoryUtils.trashcanNow. Engine heap size: 1,697 MB. GUI used memory: 113 MB. Current time: 11/13/26, 9:12:42 AM PKT
+// TclEventType: LAUNCH_SIM_LOG
+// Tcl Message: INFO: [USF-XSim-69] 'compile' step finished in '3' seconds INFO: [USF-XSim-3] XSim::Elaborate design INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/ta10580/Downloads/CA-Labs/CA-Labs/LAB11/lab11.sim/sim_1/behav/xsim' 
+// Tcl Message: "xelab -wto f8d01134f7dc4a89acf0d8e4e2a22205 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot tb_TopLevelProcessor_behav xil_defaultlib.tb_TopLevelProcessor xil_defaultlib.glbl -log elaborate.log" 
+selectButton(RDIResource.ProgressDialog_CANCEL, "Cancel"); // a (e)
+// Tcl Message: INFO: [Common 17-41] Interrupt caught. Command should exit soon. 
+// Tcl Message: INFO: [Common 17-344] 'run_program' was cancelled INFO: [Vivado 12-5357] 'elaborate' step aborted 
+// Tcl Message: launch_simulation: Time (s): cpu = 00:00:01 ; elapsed = 00:00:07 . Memory (MB): peak = 1782.785 ; gain = 1.176 
+// CommandFailedException: ERROR: [Common 17-69] Command failed:  
+// Tcl Message: INFO: [Common 17-344] 'launch_simulation' was cancelled 
+// 'd' command handler elapsed time: 7 seconds
+dismissDialog("Run Simulation"); // e (cs)
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Synthesis, Run Synthesis]", 18, false); // u (J, cs)
+// Run Command: PAResourceCommand.PACommandNames_RUN_SYNTHESIS
+// bz (cs):  Resetting Runs : addNotify
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_RESET
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// Tcl Message: reset_run synth_1 
+// f (cs): Launch Runs: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (f)
+// bz (cs):  Starting Design Runs : addNotify
+dismissDialog("Launch Runs"); // f (cs)
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// Tcl Message: launch_runs synth_1 -jobs 10 
+// Tcl Message: [Fri Nov 13 09:12:54 2026] Launched synth_1... Run output will be captured here: C:/Users/ta10580/Downloads/CA-Labs/CA-Labs/LAB11/lab11.runs/synth_1/runme.log 
+dismissDialog("Starting Design Runs"); // bz (cs)
+// TclEventType: RUN_STATUS_CHANGE
